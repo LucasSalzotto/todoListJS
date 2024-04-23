@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: rgb(22, 165, 201);
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: darkslategrey;
+}
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 30px;
+}
+
+.search {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  padding: 15px 10px;
+  outline: none;
+  width: 400px;
+}
+
+.li-container {
+  background-color: white;
+  width: 100%;
+  color: darkslategray;
+  margin-top: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  background-color: rgb(253, 251, 251);
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+li p {
+  margin: 0;
+  padding: 15px;
+  flex-grow: 1;
+}
+
+.btn-delete {
+  border: none;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  outline: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+
+.btn-done {
+  border: none;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  outline: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn-done:hover {
+  background-color: rgb(13, 199, 28);
+}
+
+.btn-delete:hover {
+  background-color: rgb(199, 13, 13);
+}
+
+.btn-add {
+  padding: 5px 15px;
+  border: none;
+  color: white;
+  font-family: Arial, sans-serif;
+  background-color: rgb(0, 128, 49);
+  font-size: 1.4rem;
+  outline: none;
+  margin-left: 10px;
+}
+
+.btn-add:hover {
+  cursor: pointer;
+  background-color: rgb(0, 139, 46);
+}
+
+.empty {
+  color: darkslategrey;
+}
+
+li.completed {
+  text-decoration: line-through;
+  text-decoration-color:black;
+  text-decoration-thickness: 2px;
+}
+
+.btn-show-all {
+  padding: 10px 15px; 
+  margin-top: 10px; 
+  border: none;
+  color: white;
+  font-family: Arial, sans-serif;
+  background-color: rgb(22, 165, 201);
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-show-all:hover {
+  background-color: rgb(18, 124, 150);
+}
